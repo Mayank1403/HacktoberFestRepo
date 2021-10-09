@@ -15,7 +15,7 @@ driver = webdriver.Firefox(executable_path=
 # time.sleep(1)
   
 # Data
-datas = [
+datas_free = [
     ["2","1","2","1","2","1","1","4","3"],
     ["2","1","2","1","1","2","1","5","3"],
     ["2","2","2","4","2","2","2","3","3"],
@@ -65,7 +65,7 @@ datas = [
 ]
   
 # Iterate through each data
-for data in datas:
+for data in datas_free:
     # Open URL
     driver.get('https://docs.google.com/forms/d/e/1FAIpQLSeqPpV4uVey9u81aBa1Eh6kjtD8vsAQlmtS3kBVi7WRTSGiMA/viewform')
   
