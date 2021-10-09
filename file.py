@@ -34,7 +34,7 @@ for i in range(0,number_of_iter):
             break
     # else:
     PPI_data_list[i].to_csv('input.csv',index=False,header=False)
-    print('Input CSV Created\n')
+    print('Input the Created CSV \n')
     
     print('runing main.py\n')
     subprocess.run('python main.py')
