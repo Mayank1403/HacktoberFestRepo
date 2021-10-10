@@ -16,7 +16,7 @@ driver = webdriver.Firefox(executable_path=
   
 # Data
 datas_free = [
-    ["2","1","2","1","2","1","1","4","3"],
+    ["2","1","2","1","2","1","123","4","3"],
     ["2","1","2","1","1","2","1","5","3"],
     ["2","2","2","4","2","2","2","3","3"],
     ["2","1","3","4","2","1","1","2","3"],
@@ -99,6 +99,7 @@ driver.close()
 # /html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div[1]/div/span/div/div[2]
 # # Initialize count is zero
 #     count = 0
+
   
 #     # contain input boxes
 #     textboxes = driver.find_elements_by_class_name(
