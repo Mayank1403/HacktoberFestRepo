@@ -5,6 +5,7 @@ int main() {
     int t;
     int a;
     cin>>t;
+    //hello 
     for(int y =0;y<t;y++){
         int n, s;
         scanf("%d %d",&n,&s);
