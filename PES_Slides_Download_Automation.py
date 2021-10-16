@@ -49,7 +49,6 @@ def download(args):
 		time.sleep(2)
 		driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div[2]/div/div[1]/div/div/div/div[1]/table/tbody/tr[' + str(i) +']/td[1]').click()					# Click lecture number
 		time.sleep(2)
-		driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div[2]/ul/li[3]/a').click()														# Click 'slides' tab
-		
+		driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div[2]/ul/li[3]/a').click()														# Click 
 if __name__ == "__main__":
 	download(sys.argv)
