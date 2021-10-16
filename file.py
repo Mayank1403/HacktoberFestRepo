@@ -3,6 +3,7 @@ from model16 import trainModel
 import subprocess
 import os
 
+#hello 2 
 def getFileNumber(filename) :
     number = filename.split('_')[-1]
     return number
