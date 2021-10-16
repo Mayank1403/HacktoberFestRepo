@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     int t;
+    int a;
     cin>>t;
     for(int y =0;y<t;y++){
         int n, s;
