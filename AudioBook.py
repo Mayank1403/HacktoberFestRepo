@@ -11,6 +11,7 @@ def text_extraction(path):
     print(text)
     audio(text)
     
+#pdf
 
 def audio(text):
     engin = pyttsx3.init()
