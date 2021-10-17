@@ -20,6 +20,8 @@ int main() {
             sum -= i;
             curr += i;
         }
+        int mx = 0;
+        cout<<mx<<endl;
         cout<<ans<<endl;
         
     }
