@@ -1,7 +1,7 @@
 import pandas as pd
 from model16 import trainModel
 
-import math
+
 import subprocess
 import os
 
