@@ -1,17 +1,22 @@
 # Program to make a simple calculator
 
+#Defining a function for addition.
 def add(x, y):
     return x + y
 
+#Defining a function for substraction.
 def subtract(x, y):
     return x - y
 
+#Defining a function for multiplication.
 def multiply(x, y):
     return x * y
 
+#Defining a function for division.
 def divide(x, y):
     return x / y
 
+#Knowing the choice of the user.
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -23,6 +28,7 @@ while True:
     choice = input("Enter choice(+/-/*//): ")
 
     if choice in ('1', '2', '3', '4'):
+        #Taking the input from user.
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
