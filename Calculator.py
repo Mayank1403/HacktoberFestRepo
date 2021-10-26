@@ -1,50 +1,56 @@
-# Program to make a simple calculator
+# Program make a simple calculator
 
-#Defining a function for addition.
+# This function adds two numbers
 def add(x, y):
     return x + y
 
-#Defining a function for substraction.
+# This function subtracts two numbers
 def subtract(x, y):
     return x - y
 
-#Defining a function for multiplication.
+# This function multiplies two numbers
 def multiply(x, y):
     return x * y
 
-#Defining a function for division.
+# This function divides two numbers
 def divide(x, y):
     return x / y
 
-#Knowing the choice of the user.
-print("Select operation.")
+
+
+
+print("Select operation choice.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
-print("4.Divide12")
+print("4.Divide")
 
 while True:
-    
-    choice = input("Enter choice(+/-/*//): ")
+    # take input from the user
+    choice = input("Enter choice(1/2/3/4): ")
 
+    # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        #Taking the input from user.
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
-        if choice == '+':
+        if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
 
-        elif choice == '-':
+        elif choice == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
-        elif choice == '*':
+        elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '/':
+        elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         
-        
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        # check if user wants another calculation
+        # break the while loop if answer is no
+        next_calculation = input("Let's do next operation? (yes/no): ") //It is input function to get input from user
         if next_calculation == "no":
           break
+    
+    else:
+        print("Invalid Input")
